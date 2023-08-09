@@ -9,7 +9,7 @@ const app = express();
 app.use(cors())
 app.use(express.json())
 
-app.use("/user",postRoute)
+app.use("/",postRoute)
 
 app.listen(4500,async()=>{
     try{
